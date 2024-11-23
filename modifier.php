@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
 
     </style>
 </head>
+
 <body class="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 min-h-screen text-white flex flex-col">
     <!-- Navbar -->
     <nav class="bg-white shadow-md text-gray-800">
@@ -40,31 +42,31 @@
             <form action="modifier.php" method="POST">
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="matricule">Matricule</label>
-                    <input type="text" name="matricule" placeholder="Entrez le matricule" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required>
+                    <input type="text" name="matricule" placeholder="Entrez le matricule" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black" required>
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="nom">Nom</label>
-                    <input type="text" name="nom" placeholder="Entrez le nouveau nom" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <input type="text" name="nom" placeholder="Entrez le nouveau nom" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black">
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="prenom">Prénom</label>
-                    <input type="text" name="prenom" placeholder="Entrez le nouveau prénom" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <input type="text" name="prenom" placeholder="Entrez le nouveau prénom" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black">
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="filiere">Filière</label>
-                    <input type="text" name="filiere" placeholder="Entrez la nouvelle filière" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <input type="text" name="filiere" placeholder="Entrez la nouvelle filière" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black">
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="anneeEtude">Année d'étude</label>
-                    <input type="text" name="anneeEtude" placeholder="Entrez la nouvelle année d'étude" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <input type="text" name="anneeEtude" placeholder="Entrez la nouvelle année d'étude" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black">
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="typeBac">Type de Bac</label>
-                    <input type="text" name="typeBac" placeholder="Entrez le type de Bac" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <input type="text" name="typeBac" placeholder="Entrez le type de Bac" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black">
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2" for="anneeBac">Année de Bac</label>
-                    <input type="text" name="anneeBac" placeholder="Entrez l'année de Bac" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                    <input type="text" name="anneeBac" placeholder="Entrez l'année de Bac" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black">
                 </div>
                 <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold shadow-md hover:bg-blue-700 transition">Modifier</button>
             </form>
@@ -82,6 +84,7 @@
         </div>
     </footer>
 </body>
+
 </html>
 
 

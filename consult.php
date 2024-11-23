@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="mb-4">
                     <label class="block text-gray-700 font-semibold mb-2">Matricule de stagiaire</label>
                     <input type="text" name="matricule" placeholder="Entrez le matricule"
-                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-black"
                         required>
                 </div>
 
