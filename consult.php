@@ -45,9 +45,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 Gestion Des Stagiaires
             </a>
             <ul class="flex space-x-6 font-semibold">
-                <li><a href="ajouter.html" class="hover:text-blue-600 transition">Ajouter</a></li>
-                <li><a href="modifier.html" class="hover:text-blue-600 transition">Modifier</a></li>
-                <li><a href="parFiliere.html" class="hover:text-blue-600 transition">Étudiants par Filière</a></li>
+                <li><a href="ajouter.php" class="hover:text-blue-600 transition">Ajouter</a></li>
+                <li><a href="modifier.php" class="hover:text-blue-600 transition">Modifier</a></li>
+                <li><a href="parFiliere.php" class="hover:text-blue-600 transition">Étudiants par Filière</a></li>
             </ul>
         </div>
     </nav>
