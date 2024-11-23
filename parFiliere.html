@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion des Étudiants</title>
+    <title>Login - Gestion Étudiants</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js" defer></script>
 </head>
 <body class="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 min-h-screen text-white flex flex-col">
     <!-- Navbar -->
     <nav class="bg-white shadow-md text-gray-800">
         <div class="container mx-auto flex justify-between items-center p-4">
-            <a href="#" class="text-2xl font-bold flex items-center" id="logo">
+            <a href="index.html" class="text-2xl font-bold flex items-center">
                 <i class="fas fa-graduation-cap mr-2 text-blue-600"></i>
                 Gestion Des Stagaires
             </a>
@@ -26,21 +25,38 @@
                 <li>
                     <a href="modifier.html" class="hover:text-blue-600 transition">Modifier</a>
                 </li>
-                <li>
-                    <a href="parFiliere.html" class="hover:text-blue-600 transition">Étudiants par Filière</a>
-                </li>
             </ul>
         </div>
     </nav>
+    <br>
 
-
+    <!-- Login Form Section -->
     <main class="flex-grow flex flex-col justify-center items-center text-center px-4">
-        <h1 class="text-5xl font-extrabold mb-4">
-            Bienvenue sur la plateforme <span class="text-yellow-400">Gestion des stagaires</span>
-        </h1>
+        <div class="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Consultation des donne des stagaires par filière</h1>
+            <form action="#" method="POST">
+                <!-- Email Field -->
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-semibold mb-2">Filière de stagaire</label>
+                    <select class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none text-bl text-black">
+                        <option value="DEV" class="text-black" selected="selected">DEV</option>
+                        <option value="Infrastructure" class="text-black">Infrastructure digitale</option>
+                        <option value="Mechanique" class="text-black">Mechanique</option>
+                        <option value="Electricite" class="text-black">Electricite</option>
+                    </select>
+                </div>
+                <!-- Submit Button -->
+                <button 
+                    type="submit" 
+                    class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold shadow-md hover:bg-blue-700 transition">
+                    chercher
+                </button>
+            </form>
+        </div>
     </main>
+    <br>
 
-
+    <!-- Footer -->
     <footer class="bg-gray-900 py-6">
         <div class="container mx-auto text-center">
             <p class="text-gray-400">
