@@ -23,13 +23,13 @@
             </a>
             <ul class="flex space-x-6 font-semibold">
                 <li>
-                    <a href="consult.html" class="hover:text-blue-600 transition">Consulter</a>
+                    <a href="consult.php" class="hover:text-blue-600 transition">Consulter</a>
                 </li>
                 <li>
-                    <a href="modifier.html" class="hover:text-blue-600 transition">Modifier</a>
+                    <a href="modifier.php" class="hover:text-blue-600 transition">Modifier</a>
                 </li>
                 <li>
-                    <a href="parFiliere.html" class="hover:text-blue-600 transition">Étudiants par Filière</a>
+                    <a href="parFiliere.php" class="hover:text-blue-600 transition">Étudiants par Filière</a>
                 </li>
             </ul>
         </div>
@@ -51,9 +51,9 @@
                         placeholder="Entrez le matricule" 
                         class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         required>
-                    
+                   
                     <!-- Nom -->
-                    <label class="block text-gray-700 font-semibold mb-2" for="nom" name="nom" >Nom de stagiaire</label>
+                    <label class="block text-gray-700 font-semibold mb-2" for="nom" >Nom de stagiaire</label>
                     <input 
                         type="text" 
                         id="nom" 
