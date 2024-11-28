@@ -91,23 +91,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['modifier'])) {
 $conn->close();
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modifier un Stagiaire</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.min.js" defer></script>
-</head>
     <style>
-        form input{
+        form input {
             color: black;
         }
 
-        .navContainer{
+        .navContainer {
             width: 85%;
         }
+
         .container {
             width: 50%;
             margin: auto;
@@ -118,25 +120,31 @@ $conn->close();
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .container button{
+
+        .container button {
             width: 100%;
             align-items: center;
         }
+
         .form-group {
             margin-bottom: 15px;
         }
+
         label {
             color: black;
             display: block;
             margin-bottom: 5px;
             font-weight: bold;
         }
-        input[type="text"], input[type="date"] {
+
+        input[type="text"],
+        input[type="date"] {
             width: 100%;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         button {
             background-color: #5cb85c;
             color: white;
@@ -145,20 +153,21 @@ $conn->close();
             border-radius: 4px;
             cursor: pointer;
         }
+
         button:hover {
             background-color: #4cae4c;
         }
+
         .error {
             color: red;
             margin-bottom: 15px;
         }
 
-        footer .FooterContainer{
-            margin-bottom: 0px;
+        footer .FooterContainer {
             margin-bottom: 75px;
         }
-
     </style>
+</head>
 
 <body class="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 min-h-screen text-white flex flex-col">
     <!-- Navbar -->
@@ -176,7 +185,6 @@ $conn->close();
         </div>
     </nav>
     <br>
-
 
     <div class="container">
         <h2>Search Stagiaire</h2>
@@ -240,4 +248,5 @@ $conn->close();
         </div>
     </footer>
 </body>
+
 </html>
